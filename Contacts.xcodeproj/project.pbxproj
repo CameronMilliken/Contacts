@@ -14,6 +14,8 @@
 		B45C4C672228B68D0050C797 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45C4C662228B68D0050C797 /* CloudKit.framework */; };
 		B45C4C6B2228B6FE0050C797 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C4C6A2228B6FE0050C797 /* Contact.swift */; };
 		B45C4C6E2228C4DA0050C797 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C4C6D2228C4DA0050C797 /* ContactController.swift */; };
+		B45C4C712228D02F0050C797 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C4C702228D02F0050C797 /* ContactListTableViewController.swift */; };
+		B45C4C732228D04B0050C797 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C4C722228D04B0050C797 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		B45C4C662228B68D0050C797 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		B45C4C6A2228B6FE0050C797 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		B45C4C6D2228C4DA0050C797 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		B45C4C702228D02F0050C797 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		B45C4C722228D04B0050C797 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				B45C4C6F2228C5150050C797 /* Model Controller */,
 				B45C4C692228B6E30050C797 /* Storyboard */,
 				B45C4C682228B6D30050C797 /* Resources */,
+				B45C4C702228D02F0050C797 /* ContactListTableViewController.swift */,
+				B45C4C722228D04B0050C797 /* ContactDetailViewController.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45C4C6E2228C4DA0050C797 /* ContactController.swift in Sources */,
+				B45C4C732228D04B0050C797 /* ContactDetailViewController.swift in Sources */,
 				B45C4C6B2228B6FE0050C797 /* Contact.swift in Sources */,
+				B45C4C712228D02F0050C797 /* ContactListTableViewController.swift in Sources */,
 				B45C4C532228B6360050C797 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
